@@ -12,7 +12,7 @@ const errorHandler = require('./middlewares/error-handler');
 
 const { requestLogger, errorLogger } = require('./middlewares/logger');
 
-const allowedCors = ['localhost:3000'];
+const allowedCors = ['http://localhost:3000'];
 
 mongoose.connect(MONGO_URL, {
   family: 4,
